@@ -1,0 +1,412 @@
+[
+  {
+    "name": "Dr. Ivan Singh",
+    "specialty": "Dermatologist",
+    "specializations": ["Fungal Infection"],
+    "experience": 13,
+    "quote": "Empathy. Experience. Expertise.",
+    "rating": 4.5,
+    "details": "Dr. Ivan Singh is a highly skilled dermatologist with a focus on treating fungal infections. He has published several papers on the subject and is known for his compassionate care.",
+    "image": "https://randomuser.me/api/portraits/women/63.jpg"
+  },
+  {
+    "name": "Dr. Ivan Lopez",
+    "specialty": "Allergist/Immunologist",
+    "specializations": ["Allergy"],
+    "experience": 20,
+    "quote": "Healing with heart and science.",
+    "rating": 4.7,
+    "details": "Dr. Ivan Lopez is a seasoned gastroenterologist with a specialization in immunologist. He has extensive experience in managing complex cases and is highly regarded in the medical community.",
+    "image": "https://randomuser.me/api/portraits/men/19.jpg"
+  },
+  {
+    "name": "Dr. Rafael Patel",
+    "specialty": "Gastroenterologist",
+    "specializations": ["GERD (Gastroesophageal Reflux Disease)"],
+    "experience": 23,
+    "quote": "Empathy. Experience. Expertise.",
+    "rating": 4.6,
+    "details": "Dr. Rafael Patel is a renowned gastroenterologist with a focus on GERD. He has conducted numerous studies on the condition and is known for his innovative treatment methods.",
+    "image": "https://randomuser.me/api/portraits/men/62.jpg"
+  },
+  {
+    "name": "Dr. Lucia Popov",
+    "specialty": "Hepatologist",
+    "specializations": ["Chronic Cholestasis"],
+    "experience": 24,
+    "quote": "Guiding you to better health.",
+    "rating": 4.8,
+    "details": "Dr. Lucia Popov is a highly experienced hepatologist specializing in chronic cholestasis. She is known for her dedication to patient care and her expertise in managing complex liver conditions.",
+    "image": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "name": "Dr. Mei Mirzaei",
+    "specialty": "Allergist/Immunologist",
+    "specializations": ["Drug Reaction"],
+    "experience": 9,
+    "quote": "Every patient matters.",
+    "rating": 4.4,
+    "details": "Dr. Mei Mirzaei is an immunologist with a focus on drug reactions. She is known for her meticulous approach and her commitment to patient safety.",
+    "image": "https://randomuser.me/api/portraits/women/20.jpg"
+  },
+  {
+    "name": "Dr. Leila Singh",
+    "specialty": "Gastroenterologist",
+    "specializations": ["Peptic Ulcer Disease"],
+    "experience": 23,
+    "quote": "Healing with heart and science.",
+    "rating": 4.7,
+    "details": "Dr. Leila Singh is a highly experienced gastroenterologist with a specialization in peptic ulcer disease. She is known for her compassionate care and her ability to manage complex cases.",
+    "image": "https://randomuser.me/api/portraits/men/64.jpg"
+  },
+  {
+    "name": "Dr. Mei Nguyen",
+    "specialty": "Infectious Disease Specialist",
+    "specializations": ["AIDS"],
+    "experience": 28,
+    "quote": "Empathy. Experience. Expertise.",
+    "rating": 4.9,
+    "details": "Dr. Mei Nguyen is a highly respected infectious disease specialist with a focus on AIDS. She has extensive experience in managing the condition and is known for her compassionate and dedicated approach.",
+    "image": "https://randomuser.me/api/portraits/men/30.jpg"
+  },
+  {
+    "name": "Dr. Aria Mirzaei",
+    "specialty": "Endocrinologist",
+    "specializations": ["Diabetes"],
+    "experience": 9,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.5,
+    "details": "Dr. Aria Mirzaei is a dedicated endocrinologist specializing in diabetes. She is known for her patient-centered approach and her commitment to improving patient outcomes.",
+    "image": "https://randomuser.me/api/portraits/women/82.jpg"
+  },
+  {
+    "name": "Dr. Lucia Ortega",
+    "specialty": "Gastroenterologist",
+    "specializations": ["Gastroenteritis"],
+    "experience": 12,
+    "quote": "Every patient matters.",
+    "rating": 4.6,
+    "details": "Dr. Lucia Ortega is a skilled gastroenterologist with a focus on gastroenteritis. She is known for her thorough and compassionate care, ensuring that each patient receives personalized attention.",
+    "image": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "name": "Dr. Daniel Patel",
+    "specialty": "Pulmonologist",
+    "specializations": ["Bronchial Asthma"],
+    "experience": 7,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.3,
+    "details": "Dr. Daniel Patel is a pulmonologist with a focus on bronchial asthma. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/30.jpg"
+  },
+  {
+    "name": "Dr. Sofia Lopez",
+    "specialty": "Cardiologist",
+    "specializations": ["Hypertension"],
+    "experience": 10,
+    "quote": "Every patient matters.",
+    "rating": 4.5,
+    "details": "Dr. Sofia Lopez is an experienced cardiologist specializing in hypertension. She is known for her thorough and compassionate approach, ensuring that each patient receives personalized care.",
+    "image": "https://randomuser.me/api/portraits/women/20.jpg"
+  },
+  {
+    "name": "Dr. Lucia Lopez",
+    "specialty": "Neurologist",
+    "specializations": ["Migraine"],
+    "experience": 26,
+    "quote": "Healing with heart and science.",
+    "rating": 4.8,
+    "details": "Dr. Lucia Lopez is a highly experienced neurologist with a focus on migraines. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/men/38.jpg"
+  },
+  {
+    "name": "Dr. Rafael Brown",
+    "specialty": "Orthopedist",
+    "specializations": ["Cervical Spondylosis"],
+    "experience": 10,
+    "quote": "Expert care, trusted results.",
+    "rating": 4.4,
+    "details": "Dr. Rafael Brown is a skilled orthopedist with a focus on cervical spondylosis. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/87.jpg"
+  },
+  {
+    "name": "Dr. Leila Popov",
+    "specialty": "Neurologist",
+    "specializations": ["Paralysis (Brain Hemorrhage)"],
+    "experience": 29,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.7,
+    "details": "Dr. Leila Popov is a highly experienced neurologist with a focus on paralysis resulting from brain hemorrhage. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/81.jpg"
+  },
+  {
+    "name": "Dr. Lucia Ortega",
+    "specialty": "Hepatologist",
+    "specializations": ["Jaundice"],
+    "experience": 26,
+    "quote": "Your wellness is my priority.",
+    "rating": 4.6,
+    "details": "Dr. Lucia Ortega is a highly respected hepatologist with a focus on jaundice. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/women/96.jpg"
+  },
+  {
+    "name": "Dr. Ivan Khan",
+    "specialty": "Infectious Disease Specialist",
+    "specializations": ["Malaria"],
+    "experience": 28,
+    "quote": "Healing with heart and science.",
+    "rating": 4.8,
+    "details": "Dr. Ivan Khan is a highly experienced infectious diease specialist with a focus on malaria. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/45.jpg"
+  },
+  {
+    "name": "Dr. Aria Lopez",
+    "specialty": "Infectious Disease Specialist",
+    "specializations": ["Chicken Pox"],
+    "experience": 30,
+    "quote": "Your health is our mission.",
+    "rating": 4.9,
+    "details": "Dr. Aria Lopez is a highly respected infectious disease specialist with a focus on chicken pox. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "name": "Dr. Ayesha Ortega",
+    "specialty": "Infectious Disease Specialist",
+    "specializations": ["Dengue"],
+    "experience": 11,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.5,
+    "details": "Dr. Ayesha Ortega is a dedicated infectious disease specialist with a focus on dengue. She is known for her thorough and compassionate approach, ensuring that each patient receives personalized care.",
+    "image": "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    "name": "Dr. Ivan Nguyen",
+    "specialty": "Infectious Disease Specialist",
+    "specializations": ["Typhoid"],
+    "experience": 22,
+    "quote": "Guiding you to better health.",
+    "rating": 4.6,
+    "details": "Dr. Ivan Nguyen is a highly experienced infectious disease specialist with a focus on typhoid. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "name": "Dr. Mei Khan",
+    "specialty": "Hepatologist",
+    "specializations": ["Hepatitis A"],
+    "experience": 12,
+    "quote": "Empathy. Experience. Expertise.",
+    "rating": 4.4,
+    "details": "Dr. Mei Khan is a skilled hepatologist with a focus on hepatitis A. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/59.jpg"
+  },
+  {
+    "name": "Dr. Omar Lopez",
+    "specialty": "Hepatologist",
+    "specializations": ["Hepatitis B"],
+    "experience": 15,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.5,
+    "details": "Dr. Omar Lopez is a dedicated hepatologist with a focus on hepatitis B. He is known for his thorough and compassionate approach, ensuring that each patient receives personalized care.",
+    "image": "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    "name": "Dr. Rafael Popov",
+    "specialty": "Hepatologist",
+    "specializations": ["Hepatitis C"],
+    "experience": 21,
+    "quote": "Every patient matters.",
+    "rating": 4.7,
+    "details": "Dr. Rafael Popov is a highly experienced hepatologist with a focus on hepatitis C. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/11.jpg"
+  },
+  {
+    "name": "Dr. Omar Brown",
+    "specialty": "Hepatologist",
+    "specializations": ["Hepatitis D"],
+    "experience": 16,
+    "quote": "Together, we heal stronger.",
+    "rating": 4.6,
+    "details": "Dr. Omar Brown is a dedicated hepatologist with a focus on hepatitis D. He is known for his compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/81.jpg"
+  },
+  {
+    "name": "Dr. Lucia Patel",
+    "specialty": "Hepatologist",
+    "specializations": ["Hepatitis E"],
+    "experience": 12,
+    "quote": "Every patient matters.",
+    "rating": 4.5,
+    "details": "Dr. Lucia Patel is a skilled hepatologist with a focus on hepatitis E. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/41.jpg"
+  },
+  {
+    "name": "Dr. Daniel Nguyen",
+    "specialty": "Hepatologist",
+    "specializations": ["Alcoholic Hepatitis"],
+    "experience": 11,
+    "quote": "Healing with heart and science.", 
+    "rating": 4.4,
+    "details": "Dr. Daniel Nguyen is an hepatologist with a focus on alcoholic hepatitis. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "name": "Dr. Lucia Nguyen",
+    "specialty": "Infectious Disease Specialist",
+    "specializations": ["Tuberculosis"],
+    "experience": 12,
+    "quote": "Expert care, trusted results.",
+    "rating": 4.5,
+    "details": "Dr. Lucia Nguyen is a highly experienced infectious disease specialist with a focus on tuberculosis. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/men/10.jpg"
+  },
+  {
+    "name": "Dr. Daniel Nguyen",
+    "specialty": "General Physician",
+    "specializations": ["Common Cold"],
+    "experience": 27,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.7,
+    "details": "Dr. Daniel Nguyen is a highly respected general physician with a focus on the common cold. He is known for his comprehensive approach and his dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/women/26.jpg"
+  },
+  {
+    "name": "Dr. Daniel Patel",
+    "specialty": "Pulmonologist",
+    "specializations": ["Pneumonia"],
+    "experience": 23,
+    "quote": "Every patient matters.",
+    "rating": 4.6,
+    "details": "Dr. Daniel Patel is a highly experienced pulmonologist with a focus on pneumonia. He is known for his innovative treatment methods and his dedication to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/20.jpg"
+  },
+  {
+    "name": "Dr. Lucia Zhou",
+    "specialty": "Gastroenterologist",
+    "specializations": ["Dimorphic Hemorrhoids (Piles)"],
+    "experience": 14,
+    "quote": "Together, we heal stronger.",
+    "rating": 4.5,
+    "details": "Dr. Lucia Zhou is a skilled gastroenterologist with a focus on dimorphic hemorrhoids. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/77.jpg"
+  },
+  {
+    "name": "Dr. Sofia Khan",
+    "specialty": "Cardiologist",
+    "specializations": ["Heart Attack"],
+    "experience": 13,
+    "quote": "Every patient matters.",
+    "rating": 4.4,
+    "details": "Dr. Sofia Khan is a cardiologist with a focus on heart attacks. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/women/51.jpg"
+  },
+  {
+    "name": "Dr. Aria Brown",
+    "specialty": "Vascular Surgeon",
+    "specializations": ["Varicose Veins"],
+    "experience": 30,
+    "quote": "Together, we heal stronger.",
+    "rating": 4.8,
+    "details": "Dr. Aria Brown is a highly respected vascular surgeon with a focus on varicose veins. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/women/37.jpg"
+  },
+  {
+    "name": "Dr. Rafael Singh",
+    "specialty": "Endocrinologist",
+    "specializations": ["Hypothyroidism"],
+    "experience": 12,
+    "quote": "Healing with heart and science.",
+    "rating": 4.5,
+    "details": "Dr. Rafael Singh is a skilled endocrinologist with a focus on hypothyroidism. He is known for his compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "name": "Dr. Omar Nguyen",
+    "specialty": "Endocrinologist",
+    "specializations": ["Hyperthyroidism"],
+    "experience": 17,
+    "quote": "Your wellness is my priority.",
+    "rating": 4.6,
+    "details": "Dr. Omar Nguyen is a highly experienced endocrinologist with a focus on hyperthyroidism. He is known for his comprehensive approach and his dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "name": "Dr. Sofia Zhou",
+    "specialty": "Endocrinologist",
+    "specializations": ["Hypoglycemia"],
+    "experience": 7,
+    "quote": "Every patient matters.",
+    "rating": 4.3,
+    "details": "Dr. Sofia Zhou is a skilled endocrinologist with a focus on hypoglycemia. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/83.jpg"
+  },
+  {
+    "name": "Dr. Mei Patel",
+    "specialty": "Rheumatologist",
+    "specializations": ["Osteoarthritis"],
+    "experience": 8,
+    "quote": "Committed to excellence in medicine.",
+    "rating": 4.5,
+    "details": "Dr. Mei Patel is a dedicated rheumatologist with a focus on osteoarthritis. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/women/27.jpg"
+  },
+  {
+    "name": "Dr. Ayesha Popov",
+    "specialty": "Rheumatologist",
+    "specializations": ["Arthritis"],
+    "experience": 14,
+    "quote": "Every patient matters.",
+    "rating": 4.4,
+    "details": "Dr. Ayesha Popov is a skilled rheumatologist with a focus on arthritis. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/79.jpg"
+  },
+  {
+    "name": "Dr. Lucia Nguyen",
+    "specialty": "ENT Specialist",
+    "specializations": ["(Vertigo) Paroxysmal Positional Vertigo"],
+    "experience": 12,
+    "quote": "Together, we heal stronger.",
+    "rating": 4.5,
+    "details": "Dr. Lucia Nguyen is a skilled ENT specialist with a focus on vertigo. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/29.jpg"
+  },
+  {
+    "name": "Dr. Ayesha Ortega",
+    "specialty": "Dermatologist",
+    "specializations": ["Acne"],
+    "experience": 6,
+    "quote": "Guiding you to better health.",
+    "rating": 4.3,
+    "details": "Dr. Ayesha Ortega is a skilled dermatologist with a focus on acne. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/men/12.jpg"
+  },
+  {
+    "name": "Dr. Daniel Brown",
+    "specialty": "Urologist",
+    "specializations": ["Urinary Tract Infection"],
+    "experience": 17,
+    "quote": "Healing with heart and science.",
+    "rating": 4.5,
+    "details": "Dr. Daniel Brown is a highly experienced urologist with a focus on urinary tract infections. He is known for his comprehensive approach and his dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "name": "Dr. Leila Patel",
+    "specialty": "Dermatologist",
+    "specializations": ["Psoriasis"],
+    "experience": 10,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.4,
+    "details": "Dr. Leila Patel is a skilled dermatologist with a focus on psoriasis. She is known for her compassionate and dedicated approach to patient care.",
+    "image": "https://randomuser.me/api/portraits/women/17.jpg"
+  },
+  {
+    "name": "Dr. Leila Popov",
+    "specialty": "Dermatologist",
+    "specializations": ["Impetigo"],
+    "experience": 29,
+    "quote": "Dedicated to compassionate care.",
+    "rating": 4.7,
+    "details": "Dr. Leila Popov is a highly experienced dermatologist with a focus on impetigo. She is known for her comprehensive approach and her dedication to patient well-being.",
+    "image": "https://randomuser.me/api/portraits/men/27.jpg"
+  }
+]
