@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import { getPatient } from "@/lib/actions/patient.actions";
-import Link from 'next/link';
 import { useRouter } from "next/navigation";
 import Image from 'next/image';
 
@@ -37,7 +36,7 @@ const DiseasePredictionPage: React.FC = ({ params: { userId } }: SearchParamProp
     try {
       console.log('Sending request with symptoms:', symptoms.split(','));
       
-      const response = await fetch('http://localhost:5000/predict', {
+      const response = await fetch('https://disease-prediction-and-medical.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
