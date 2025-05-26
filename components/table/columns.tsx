@@ -77,7 +77,7 @@ export const columns: ColumnDef<Appointment>[] = [
           {doctor?.image ? (
             <Image
               src={doctor.image}
-              alt={doctor.name}
+              alt={doctor.name!}
               width={32}
               height={32}
               className="rounded-full border border-gray-300"
@@ -90,8 +90,8 @@ export const columns: ColumnDef<Appointment>[] = [
           </p>
         </div>
       );
+    }
     },
-  },
   {
     id: "actions",
     header: () => <div className="pl-4">Actions</div>,
