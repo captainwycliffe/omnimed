@@ -2,7 +2,7 @@ import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["randomuser.me"],
+    domains: ["randomuser.me","media.giphy.com"],
   },
 };
 

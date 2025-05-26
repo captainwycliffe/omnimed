@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
-import { getPatient } from "@/lib/actions/patient.actions";
+// import { getPatient } from "@/lib/actions/patient.actions";
 import { useRouter } from "next/navigation";
 import Image from 'next/image';
 
@@ -15,9 +15,9 @@ interface PredictionData {
   recommended_workout: string;
 }
 
-const DiseasePredictionPage: React.FC = ({ params: { userId } }: SearchParamProps) => {
+const DiseasePredictionPage = ({ params: { userId } }: { params: { userId: string } }) => {
   const router = useRouter();
-  const patient = getPatient(userId);
+  // const patient = getPatient(userId);
   
   const [symptoms, setSymptoms] = useState('');
   const [prediction, setPrediction] = useState<PredictionData | null>(null);
@@ -133,7 +133,7 @@ const DiseasePredictionPage: React.FC = ({ params: { userId } }: SearchParamProp
                 <h3 className="font-semibold text-green-500">Medical Overview:</h3>
                 <p>{prediction.disease_description}</p>
                 <p className="text-sm text-gray-500 italic mt-1">
-                  Understanding your condition is the first step toward managing it effectively. We're here to guide you.
+                  Understanding your condition is the first step toward managing it effectively. We&#39;re here to guide you.
                 </p>
               </motion.div>
   
@@ -196,13 +196,14 @@ const DiseasePredictionPage: React.FC = ({ params: { userId } }: SearchParamProp
         )}
       </section>
   
-      <img
+      <Image
         src="https://media.giphy.com/media/xnDVd93DMnOLK/giphy.gif?cid=790b7611ny7ip5mxsw4ty2cgfqzdwsctqd1q8fdr75ighyr3&ep=v1_gifs_search&rid=giphy.gif&ct=g"
         alt="Medical animation"
+        width={400}
+        height={800}
         className="side-img max-w-[400px] max-h-screen bg-bottom"
       />
     </div>
   );
 };
-
 export default DiseasePredictionPage;

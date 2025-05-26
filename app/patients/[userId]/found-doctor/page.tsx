@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -7,13 +7,24 @@ import doctors from "@/data/doctors.json";
 import { FaUserMd, FaStar, FaBriefcase } from "react-icons/fa";
 import { getPatient } from "@/lib/actions/patient.actions";
 
+interface Doctor {
+  name: string;
+  image: string;
+  specialty: string;
+  quote: string;
+  details?: string;
+  rating: number;
+  experience: number;
+  specializations: string[];
+}
+
 const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const disease = searchParams.get("disease") || "";
   const [patient, setPatient] = useState<{ name: string }>({ name: "" });
 
-  const [doctor, setDoctor] = useState<any>(null);
+  const [doctor, setDoctor] = useState<Doctor | null>(null);
 
   useEffect(() => {
     const fetchPatient = async () => {
@@ -60,11 +71,11 @@ const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
             className="rounded-full"
           />
           <h1 className="text-3xl font-bold text-green-500">
-            🎉 {patient.name}, You're Matched with a Trusted Specialist!
+            🎉 {patient.name}, You&#39;re Matched with a Trusted Specialist!
           </h1>
           <p className="text-gray-600">
             Based on your condition <strong className="capitalize">{disease}</strong>, 
-            we've connected you with a doctor who has the right experience and background to support your recovery.
+            we&#39;ve connected you with a doctor who has the right experience and background to support your recovery.
           </p>
         </div>
 
@@ -83,7 +94,7 @@ const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
                   <FaUserMd /> {doctor.name}
                 </h2>
                 <p className="text-sm text-gray-600">{doctor.specialty}</p>
-                <p className="italic text-gray-700">"{doctor.quote}"</p>
+                <p className="italic text-gray-700">&quot;{doctor.quote}&quot;</p>
 
                 {doctor.details && (
                   <p className="text-sm text-gray-700 mt-3">
@@ -122,5 +133,4 @@ const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
     </div>
   );
 };
-
 export default FoundDoctor;
