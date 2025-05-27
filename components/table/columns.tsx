@@ -77,6 +77,7 @@ export const columns: ColumnDef<Appointment>[] = [
           {doctor?.image ? (
             <Image
               src={doctor.image}
+              unoptimized
               alt={doctor.name!}
               width={32}
               height={32}
