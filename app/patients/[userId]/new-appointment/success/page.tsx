@@ -21,7 +21,8 @@ const RequestSuccess = async ({
   return (
     <div className=" flex h-screen max-h-screen px-[5%]">
       <div className="success-img">
-        <div className="flex items-center mb-6">
+      <Link href="/" className="cursor-pointer">
+          <div className="flex items-center">
             <Image
               src="/assets/images/omnimed-logo.webp"
               height={3000}
@@ -29,10 +30,9 @@ const RequestSuccess = async ({
               alt="patient"
               className="h-10 w-fit"
             />
-            <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
-              OmniMed
-            </h1>
+            <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">OmniMed</h1>
           </div>
+        </Link>
         <section className="flex flex-col items-center">
           <Image
             src="/assets/gifs/success.gif"
@@ -52,6 +52,7 @@ const RequestSuccess = async ({
           <div className="flex items-center gap-3">
             <Image
               src={doctor?.image || '/assets/images/default-doctor.png'}
+              unoptimized
               alt="doctor"
               width={100}
               height={100}

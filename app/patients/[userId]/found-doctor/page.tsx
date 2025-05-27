@@ -6,6 +6,7 @@ import Image from "next/image";
 import doctors from "@/data/doctors.json";
 import { FaUserMd, FaStar, FaBriefcase } from "react-icons/fa";
 import { getPatient } from "@/lib/actions/patient.actions";
+import Link from "next/link";
 
 interface Doctor {
   name: string;
@@ -52,7 +53,8 @@ const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
   return (
     <div className="flex h-screen max-h-screen">
       <div className="remove-scrollbar container my-auto">
-        <div className="flex items-center mb-12">
+        <Link href="/" className="cursor-pointer">
+          <div className="flex items-center">
             <Image
               src="/assets/images/omnimed-logo.webp"
               height={3000}
@@ -61,7 +63,8 @@ const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
               className="h-10 w-fit"
             />
             <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">OmniMed</h1>
-        </div>
+          </div>
+        </Link>
         <div className="flex flex-col items-center text-center space-y-4">
           <Image
             src="/assets/gifs/success.gif"
@@ -85,6 +88,7 @@ const FoundDoctor = ({ params: { userId } }: SearchParamProps) => {
               <Image
                 src={doctor.image}
                 alt={doctor.name}
+                unoptimized
                 width={100}
                 height={100}
                 className="rounded-full border-4 border-green-200"

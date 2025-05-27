@@ -169,6 +169,7 @@ export const AppointmentForm = ({
                   <div className="flex cursor-pointer items-center gap-2">
                     <Image
                       src={doctor.image}
+                      unoptimized
                       width={32}
                       height={32}
                       alt="doctor"

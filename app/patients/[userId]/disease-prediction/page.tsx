@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 // import { getPatient } from "@/lib/actions/patient.actions";
 import { useRouter } from "next/navigation";
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface PredictionData {
   predicted_disease: string;
@@ -65,16 +66,18 @@ const DiseasePredictionPage = ({ params: { userId } }: { params: { userId: strin
   return (
     <div className="flex h-screen max-h-screen ">
       <section className="remove-scrollbar container my-auto p-6 w-full max-w-3xl">
-        <div className="flex items-center mb-12">
-          <Image
-            src="/assets/images/omnimed-logo.webp"
-            height={3000}
-            width={3000}
-            alt="patient"
-            className="h-10 w-fit"
-          />
-          <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">OmniMed</h1>
-        </div>
+      <Link href="/" className="cursor-pointer">
+          <div className="flex items-center">
+            <Image
+              src="/assets/images/omnimed-logo.webp"
+              height={3000}
+              width={3000}
+              alt="patient"
+              className="h-10 w-fit"
+            />
+            <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">OmniMed</h1>
+          </div>
+        </Link>
         <h1 className="text-center text-3xl font-bold text-green-400 mb-6">Disease Prediction Portal</h1>
         <form onSubmit={handleSubmit} className="flex flex-col bg-gradient-to-br from-white to-green-500 p-6 rounded-xl shadow">
           <label htmlFor="symptoms" className="mb-1 text-gray-600 text-sm font-medium">

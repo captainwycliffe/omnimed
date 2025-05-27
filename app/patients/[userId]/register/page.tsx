@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 
 import RegisterForm from "@/components/forms/RegisterForm";
 import { getPatient, getUser } from "@/lib/actions/patient.actions";
+import Link from "next/link";
 
 const Register = async ({ params: { userId } }: SearchParamProps) => {
   const user = await getUser(userId);
@@ -14,7 +15,8 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
     <div className="flex h-screen max-h-screen">
       <section className="remove-scrollbar container">
         <div className="sub-container max-w-[860px] flex-1 flex-col py-10">
-          <div className="flex items-center mb-6">
+        <Link href="/" className="cursor-pointer">
+          <div className="flex items-center">
             <Image
               src="/assets/images/omnimed-logo.webp"
               height={3000}
@@ -22,10 +24,9 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
               alt="patient"
               className="h-10 w-fit"
             />
-            <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
-              OmniMed
-            </h1>
+            <h1 className="ml-2 text-3xl font-semibold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">OmniMed</h1>
           </div>
+        </Link>
 
           <RegisterForm user={user} />
 
